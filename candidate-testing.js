@@ -16,7 +16,7 @@ let questions = [
   "What is the minimum crew size for the ISS?  "];
 let correctAnswers = [
   "Sally Ride",
-  "True",
+  "true",
    "40",
     "Trajectory",
      "3"];
@@ -47,7 +47,7 @@ console.log(`${i+1}) ${questions[i]}\n Candidate answer:
      ${candidateAnswers[i]}\n Correct answer: ${correctAnswers[i]}\n`);
 }
   let grade = (answersCorrect/questions.length)*100;
-  console.log('>>>Overall Grade: ${grade}% (${answersCorrect} of ${questions.length} correct answers.>>>');
+  console.log(`>>>Overall Grade: ${grade}% (${answersCorrect} of ${questions.length} responses correct)>>>`);
   if (grade = 80) {
   console.log(">>>PASSED<<<") 
   } else {
